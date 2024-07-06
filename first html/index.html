@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>movies</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <header>
 
         <p>welcome</p>
     </header>
-    <section>
-        <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2019/02/horror-movies-2019.jpg" alt="image" width="60%" height="auto">
+    <div class="container">
+    <section class="info-section">
+        <img class="cover-img" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2019/02/horror-movies-2019.jpg" alt="image" >
         <h2>discover</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
         <i>final movies</i></p>
-        <p align="right">
+        <p >
             Lorem ipsum dolor.
         </p>
     </section>
-    <section>
-        <table border="1">
+    <section class="movies-section">
+        <table>
             <tr>
                 <th>title</th>
                 <th>director</th>
@@ -41,7 +43,7 @@
             </tr>
         </table>
     </section>
-    <section>
+    <section class="top-movies-section">
         <h2>top 5 movies</h2>
         <ol>
             <li>The godfather</li>
@@ -51,7 +53,7 @@
             <li>Inside out</li>
         </ol>
     </section>
-    <section>
+    <section class="form-section">
         <h2>Enter your favorite movie</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
         <form action="/submit">
@@ -79,6 +81,7 @@
             <button type="submit">Submit</button>
         </form>
     </section>
+</div>
     <footer>
         <p>&copy; 2025 movies database</p>
         <p>for more info, visit our <a href="https://www.ibm.com/us-en">page</a></p>

@@ -1,0 +1,104 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(11, 25, 47);
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(8, 38, 87);
+    padding: 10px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    
+}
+.container{
+    margin: 0 200px;
+}
+section{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: rgb(20, 49, 95);
+    box-shadow: 0,4,8,rgb(8, 52, 121);
+    border: none;
+    h2{
+        color: rgb(255, 255, 255);
+    }
+}
+.cover-img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+.info-section{
+    text-align: center;
+}
+.movies-section table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    td,th{
+        padding: 10px;
+        border-bottom: 1px solid #fff;
+    }
+    th{
+        background-color: rgb(28, 62, 97);
+    }
+}
+.top-movies-section{
+    li{
+        padding: 5px;
+    }
+}
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-section input,
+.form-section select,
+.form-section button {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    width: 100%; 
+}
+
+.form-section label {
+    margin: 10px 0 5px 0; 
+}
+
+.form-section button {
+    background-color: #dfdcdc;
+    cursor: pointer;
+    border: none;
+    transition: 0.4s;
+}
+
+.form-section button:hover {
+    background-color: #fff;
+    transition: 0.4s;
+}
+
+footer {
+    background-color: rgb(8, 38, 87);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    p{
+        margin: 5px 0;
+    }
+    a{
+        color: #1E90FF;
+    text-decoration: none;
+    }
+    a:hover {
+    text-decoration: underline;
+}
+}
