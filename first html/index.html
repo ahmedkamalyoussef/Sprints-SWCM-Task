@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movies</title>
+</head>
+<body>
+    <header>
+
+        <p>welcome</p>
+    </header>
+    <section>
+        <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2019/02/horror-movies-2019.jpg" alt="image" width="60%" height="auto">
+        <h2>discover</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+        <i>final movies</i></p>
+        <p align="right">
+            Lorem ipsum dolor.
+        </p>
+    </section>
+    <section>
+        <table border="1">
+            <tr>
+                <th>title</th>
+                <th>director</th>
+                <th>year</th>
+                <th>genre</th>
+            </tr>
+            <tr>
+                <td>the hobbit</td>
+                <td>frank</td>
+                <td>1998</td>
+                <td>adventure</td>
+            </tr>
+            <tr>
+                <td>lord of the rings</td>
+                <td>frank</td>
+                <td>1998</td>
+                <td>adventure</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h2>top 5 movies</h2>
+        <ol>
+            <li>The godfather</li>
+            <li>Lord of the rings</li>
+            <li>The hobbit</li>
+            <li>The dark night</li>
+            <li>Inside out</li>
+        </ol>
+    </section>
+    <section>
+        <h2>Enter your favorite movie</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        <form action="/submit">
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" required>
+            <br>
+            <label for="director">Director</label>
+            <input type="text" id="director" name="director" required>
+            <br>
+            <label for="genre">Genre</label>
+            <select name="genre" id="genre" required>
+                <option value="1">Drama</option>
+                <option value="2">Action</option>
+                <option value="3">Adventure</option>
+                <option value="4">Comedy</option>
+                <option value="5">Horror</option>
+            </select>
+            <br>
+            <label for="year">Year</label>
+            <input type="date" id="year" name="year" required>
+            <br>
+            <label for="img">upload image</label><br>
+            <input type="file" id="img" name="img" accept="image/*">
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 movies database</p>
+        <p>for more info, visit our <a href="https://www.ibm.com/us-en">page</a></p>
+    </footer>
+</body>
+</html>
